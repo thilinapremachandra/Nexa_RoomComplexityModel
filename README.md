@@ -57,15 +57,20 @@ python main.py
 #### Example Output
 
 Area-Based Complexity Score: 0.25
+
 Entropy-Based Complexity Score: 0.65
+
 Clutter Score: 0.45
+
 Final Complexity Score: 0.58, Complexity Level: High
 
 #### Functions
 display_image(title, image)
+
 Displays an image using Matplotlib.
 
 resize_image(image, max_width=800, max_height=600)
+
 Resizes the image to fit within the specified dimensions.
 
 user_mark_objects(image)
@@ -94,10 +99,15 @@ Calculates the visual clutter score.
 This project uses the following libraries:
 
 OpenCV
+
 NumPy
+
 Matplotlib
+
 Pillow
+
 SciPy
+
 scikit-fuzzy
 
 #### Contributing
