@@ -2,20 +2,20 @@
 ## Room Complexity Measurement
 This project aims to measure the complexity of a room using three methods: area-based complexity, entropy-based complexity, and visual clutter. These scores are combined using a fuzzy logic approach to determine the overall complexity score and level.
 
-### Features
+#### Features
 Area-Based Complexity: Measures the ratio of object area to the total room area.
 Entropy-Based Complexity: Calculates the entropy of marked objects to measure randomness and disorder.
 Visual Clutter: Assesses the overlap and density of objects in the room.
 Fuzzy Logic Integration: Combines the three complexity scores to produce an overall complexity score and level.
 
 ### Prerequisites
-Python 3.x
-OpenCV
-NumPy
-Matplotlib
-Pillow
-SciPy
-scikit-fuzzy
+- Python 3.x
+- OpenCV
+- NumPy
+- Matplotlib
+- Pillow
+- SciPy
+- scikit-fuzzy
 
 ### Installation
 1. Clone the repository:
@@ -46,15 +46,15 @@ Entropy-Based Complexity Score: Computes the entropy of marked objects to measur
 
 Visual Clutter Score: Measures the overlap and density of objects in the room.
 
-#### Fuzzy Logic Integration
+### Fuzzy Logic Integration
 The three complexity scores are combined using a fuzzy logic approach to produce an overall complexity score and level (Low or High).
 
-#### Run the Program
+### Run the Program
 To run the program, execute:
 
 python main.py
 
-#### Example Output
+### Example Output
 
 Area-Based Complexity Score: 0.25
 
@@ -64,7 +64,7 @@ Clutter Score: 0.45
 
 Final Complexity Score: 0.58, Complexity Level: High
 
-#### Functions
+### Functions
 display_image(title, image)
 
 Displays an image using Matplotlib.
@@ -98,17 +98,13 @@ Calculates the visual clutter score.
 ### Acknowledgements
 This project uses the following libraries:
 
-OpenCV
-
-NumPy
-
-Matplotlib
-
-Pillow
-
-SciPy
-
-scikit-fuzzy
+- Python 3.x
+- OpenCV
+- NumPy
+- Matplotlib
+- Pillow
+- SciPy
+- scikit-fuzzy
 
 #### Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
