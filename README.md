@@ -21,6 +21,7 @@ scikit-fuzzy
 1. Clone the repository:
 
 git clone https://github.com/thilinapremachandra/Nexa_RoomComplexityModel.git
+
 cd Nexa_RoomComplexityModel
 
 2. Install the required packages:
@@ -33,6 +34,7 @@ pip install -r requirements.txt
 Load an image:
 
 image_path = "path_to_your_image.jpg"
+
 The user will be prompted to mark objects in the image by clicking on the vertices of a polygon around each object. Right-click to close the polygon, press 'Enter' to finish marking an object, and 'Esc' to finish marking all objects.
 
 #### Calculate Complexity Scores
